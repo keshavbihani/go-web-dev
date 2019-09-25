@@ -1,0 +1,7 @@
+After creating a webserver from scratch we will create webserver using http package.
+
+ListenAndServe: this http function runs server 
+ => func ListenAndServe(addr string, handler Handler) error
+ 	=> it needs addr servername:port
+ 	=> handler: it reponds to http request using ServeHTTP
+ 	
